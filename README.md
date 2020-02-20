@@ -115,11 +115,12 @@ section 项目B
 
 
     >**<u>参考[菜鸟教程 > Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)部分内容</u>**
-    >印象笔记中Markdown的**脚注**、**高级链接**功能不可用
+    >印象笔记中Markdown的**脚注**功能不可用
     >[Github源代码](https://github.com/Tsanfer/Markdown_Template)
     
     [TOC]
-    
+
+
     # 一级标题
     ## 二级标题
     ### 三级标题
@@ -138,8 +139,8 @@ section 项目B
     1. 有序项1
     2. 有序项2
     3. 有序项3
-    1. 嵌套项
-    * 嵌套项
+        1. 嵌套项
+        * 嵌套项
     
     >区块引用
     >>一层嵌套引用
@@ -153,16 +154,33 @@ section 项目B
     //代码块
     ```
     
-    [简单链接格式](https://www.runoob.com/markdown/md-tutorial.html)
-    
-    ![图片替代文字](https://www.runoob.com/wp-content/uploads/2019/03/iconfinder_markdown_298823.png "图片属性")
-    
     |左对齐|居中|右对齐|
     |:-|:-:|-:|
     |这是一个单元格|这是一个单元格|这是一个单元格|
     |这是一个单元格|这是一个单元格|这是一个单元格|
     
+    [内联方式超链接](https://www.runoob.com/markdown/md-tutorial.html)
+    
+    [引用方式超链接][引用式]
+    
+    [引用式]: https://www.runoob.com/markdown/md-tutorial.html
+    
+    |图片方式 |图片|
+    |:-:|:-:|
+    |图片内联|![](https://www.runoob.com/wp-content/uploads/2019/03/iconfinder_markdown_298823.png "内联图片属性")|
+    |图片引用|![][引用图片]|
+    |图片内联超链接|[![](https://www.runoob.com/wp-content/uploads/2019/03/iconfinder_markdown_298823.png "内联图片属性")](https://www.runoob.com/markdown/md-tutorial.html)|
+    |图片引用超链接|[![][引用图片]][引用链接]|
+    
+    [引用图片]: https://www.runoob.com/wp-content/uploads/2019/03/iconfinder_markdown_298823.png "引用图片属性"
+    
+    [引用链接]: https://www.runoob.com/markdown/md-tutorial.html
+
+
     \*\*使用转义字符\*\*
+    
+    LaTeX_($LaTeX: E=mc^2$)_LaTex
+    $$LaTeX: E=mc^2$$
     
     ```chart
     ,数值一,数值二,数值三
@@ -209,5 +227,3 @@ section 项目B
     任务3: 2018-01-01, 10d
     任务4: after duty1, 20d
     ```
-
-
