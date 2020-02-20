@@ -114,6 +114,24 @@ section 项目B
 ```
 
 
+# 快捷键
+|功能|键位|
+|:-:|:-:|
+|新建 Markdown 笔记|Ctrl+Alt+D|
+|粗体|Ctrl+B|
+|斜体|Ctrl+I|
+|删除线|Ctrl+T|
+|下划线|Ctrl+U|
+|分隔线|Ctrl + Shift + -|
+|编号列表|Ctrl + Shift + O|
+|项目符号列表|Ctrl + Shift + W|
+|插入待办事项|Ctrl + Shift + C|
+|代码块|Ctrl+Shift+L|
+|插入日期和时间|Alt + Shift + D|
+|撤销|Ctrl+Z|
+|在笔记内搜索|Ctrl+F|
+
+
     >**<u>参考[菜鸟教程 > Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)部分内容</u>**
     >印象笔记中Markdown的**脚注**功能不可用
     >[Github源代码](https://github.com/Tsanfer/Markdown_Template)
